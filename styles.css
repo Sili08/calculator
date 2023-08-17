@@ -1,0 +1,112 @@
+.grid {
+    width: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "ac ac Sqrt divide"
+    "nine eight seven mul"
+    "six five four plus"
+    "three two one minus"
+    "zer zer dott equal" 
+    ;
+}
+
+.background-opperator {
+    background-color: orange;
+}
+
+.special-background-opperator {
+    background-color: lightgray;
+}
+
+.background-number-color {
+    background-color: rgb(161, 161, 161);
+}
+
+.container {
+    height: 200px;
+    position: relative;
+    border: 3px solid black;
+ }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.zer {
+    grid-area: zer;
+}
+
+.mul {
+    grid-area: mul;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.ac {
+    grid-area: ac;
+}
+
+.equal {
+    grid-area: equal;
+}
+
+.dott {
+    grid-area: dott;
+}
+
+.Sqrt {
+    grid-area: Sqrt;
+}
